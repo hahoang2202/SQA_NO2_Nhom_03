@@ -1,7 +1,7 @@
 <h1>
   Thông tin về dự án
 </h1>
-<p> Dự án học phần đánh giá và kiểm định chất lượng phần mềm. </p> <br>
+<p> Dự án học phần đánh giá và kiểm định chất lượng phần mềm. </p>
 <p> Đề tài: Thiết kế hệ thống tính tiền nước dành cho hộ cá nhân. </p>
 
 ## Thành viên
