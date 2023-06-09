@@ -9,7 +9,7 @@ class Client(models.Model):
     first_name = models.CharField(max_length=30) 
     last_name = models.CharField(max_length=30) 
     middle_name = models.CharField(max_length=30, null=True, blank=True) 
-    contact_number = models.CharField(null=True, unique=True, max_length=13)
+    contact_number = models.BigIntegerField(null=True, unique=True, max_length=13)
     address = models.CharField(max_length=250)
     status = models.TextField(choices=(('Connected', 'Connected'), ('Disconnected', 'Disconnected'), ('Pending', 'Pending')))
 
@@ -35,7 +35,7 @@ class WaterBill(models.Model):
         return self.meter_consumption * consump_amount
 
     def penalty(self):
-        if self.penaltydate == datetime.date.today():
+        if self.penaltydate != datetime.date.today():
             metric = Metric.objects.get(id=1)
             penalty_cost = metric.penalty_amount
             return penalty_cost

@@ -20,7 +20,7 @@ class Migration(migrations.Migration):
                 ('first_name', models.CharField(max_length=30)),
                 ('last_name', models.CharField(max_length=30)),
                 ('middle_name', models.CharField(blank=True, max_length=30, null=True)),
-                ('contact_number', models.CharField(max_length=13, null=True, unique=True)),
+                ('contact_number', models.BigIntegerField(max_length=13, null=True, unique=True)),
                 ('address', models.CharField(max_length=250)),
                 ('status', models.TextField(choices=[('Connected', 'Connected'), ('Disconnected', 'Disconnected'), ('Pending', 'Pending')])),
             ],

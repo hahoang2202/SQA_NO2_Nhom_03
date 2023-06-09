@@ -25,8 +25,8 @@ class ClientForm(forms.ModelForm):
             'first_name': forms.TextInput(attrs={'type': 'text', 'class': 'form-control', 'placeholder':'First Name' }),
             'middle_name': forms.TextInput(attrs={'type': 'text', 'class': 'form-control', 'placeholder':'Middle Name' }),
             'last_name': forms.TextInput(attrs={'type': 'text', 'class': 'form-control', 'placeholder':'Last Name' }),
-            'contact_number': forms.TextInput(attrs={'type': 'text', 'class': 'form-control', 'placeholder':'+84', 'value': '+84' }),
-            'address': forms.TextInput(attrs={'type': 'text', 'class': 'form-control', 'placeholder':'House Number, Street, Purok, Barangay' }),
+            'contact_number': forms.TextInput(attrs={'type': 'number', 'class': 'form-control', 'placeholder':'+84', 'value': '+84' }),
+            'address': forms.TextInput(attrs={'type': 'text', 'class': 'form-control', 'placeholder':'HaNoi, VietNam' }),
             'status': forms.Select(attrs={'class': 'form-control', 'placeholder':'Select' }),
         }
 
