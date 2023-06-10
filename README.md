@@ -10,3 +10,5 @@
 - [Trần Thị Mỹ Duyên](https://github.com/ngocmach)
 - [Nguyễn Ngọc Hà](https://github.com/ngngocha)
 - [Nguyễn Viết Hiếu](https://github.com/NguyenVietHieu1012)
+## Tài liệu test case
+https://docs.google.com/spreadsheets/d/1-nfJVClfBmi2e6fRSydGApwzl4QYpZYZMYVVQzRliIo/edit?usp=sharing
